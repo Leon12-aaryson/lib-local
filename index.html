@@ -12,15 +12,15 @@
 <style>
     .head {
         background: linear-gradient(rgba(0, 0, 0, .4) 50%, rgba(0, 0, 0, .4) 50%), url("static/images/libbooks.png");
-        height: 60vh;
+        height: 70vh;
         background-size: cover;
     }
 
-    /* @media (max-width: 600px) {
+    @media (min-width: 900px) and (max-width: 1000px) {
         .head {
-            height: 50vh;
+            height: 80vh;
         }
-    } */
+    }
 </style>
 
 <body>
@@ -32,6 +32,7 @@
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="bx bx-menu-alt-right"></span>
+                    <!-- <span class="bx bx-menu"></span> -->
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -62,17 +63,64 @@
             <h3><a href="login.html">Login</a></h3>
         </div>
     </div>
-    <div class="p-3">
+    <div class="p-4">
         <div class="notetxt">
             <h4><a href="#">Books</a></h4>
             <h4><a href="#">Articles</a></h4>
         </div>
         <div class="search">
             <div class="input-group mb-4">
-                <input type="text" class="form-control" placeholder="Search book/article" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <input type="text" class="form-control" placeholder="Search book/article"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
             </div>
-            
+            <div class="sect p-2">
+                <h4>Blogs</h4>
+                <div class="card p-2 blog">
+                    <h5>My adventure</h5>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aspernatur, omnis
+                        consequuntur culpa reiciendis iste
+                        quaerat vel accusamus tempora, doloremque, itaque labore corporis unde! Vel.</h6>
+                </div>
+                <h4>Books</h4>
+                <div class="books">
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                    <div class="card p-2 book">
+                        <img src="static/images/libbooks.png" alt="">
+                        <h5>Book title</h5>
+                        <h6>Author</h6>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
